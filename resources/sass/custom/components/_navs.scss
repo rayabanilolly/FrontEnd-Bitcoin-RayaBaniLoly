@@ -1,0 +1,16 @@
+.nav {
+    &-item {
+        font-weight: 500;
+        a {
+            color: var(--text-color);
+
+            &.active {
+                color: var(--primary);
+            }
+
+            &:hover {
+                color: var(--primary);
+            }
+        }
+    }
+}

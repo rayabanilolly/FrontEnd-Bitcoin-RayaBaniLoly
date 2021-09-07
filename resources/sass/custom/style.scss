@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+
+@import "variables";
+@import "components/navs";
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+
+    #result-wrapper {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 3.5rem;
+    }
+}

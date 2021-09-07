@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap);
+:root {
+  --text-color: #170f11;
+  --primary: #3454d1;
+}
+
+.nav-item {
+  font-weight: 500;
+}
+.nav-item a {
+  color: var(--text-color);
+}
+.nav-item a.active {
+  color: var(--primary);
+}
+.nav-item a:hover {
+  color: var(--primary);
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+body #result-wrapper {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 3.5rem;
+}
